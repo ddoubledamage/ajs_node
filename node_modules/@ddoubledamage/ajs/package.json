@@ -1,0 +1,30 @@
+{
+  "name": "@ddoubledamage/ajs",
+  "version": "1.0.1",
+  "description": "��#\u0000 \u0000a\u0000j\u0000s\u0000\r\u0000 \u0000",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddoubledamage/ajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddoubledamage/ajs/issues"
+  },
+  "homepage": "https://github.com/ddoubledamage/ajs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
